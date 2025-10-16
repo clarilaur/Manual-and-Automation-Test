@@ -9,9 +9,9 @@ Comprehensive API testing demonstrations using a Weather API.
 # Video Walkthroughs:
 
 
-⋆✴︎˚｡⋆ GET Error Test Using Postman - Testing error handling and validation
+⋆✴︎˚｡⋆ GET Error Test Using Postman - Testing error handling and validation https://youtu.be/JOH9iA12zxE
 
-⋆✴︎˚｡⋆ GET City API Test with Postman - Validating successful API responses
+⋆✴︎˚｡⋆ GET City API Test with Postman - Validating successful API responses https://youtu.be/sUc98yH3q6Q
 
 # What's Tested:
 
