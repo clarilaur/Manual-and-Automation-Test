@@ -1,5 +1,5 @@
 # Manual-and-Automation-Test
-𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 
+𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 ⋆.˚ 𓆉 
 
 This repository showcases my testing capabilities across multiple testing types and tools, including manual test case documentation, API testing with Postman, and UI automation with Cypress.
 What's Included
