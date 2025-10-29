@@ -1,0 +1,47 @@
+Using Postman with Synthesia.io:
+
+Send the request in Postman by using the URL, method, & extra necessary elements such as params, authorization, headers, body, and scripts:
+
+ 	This is the URL I used: https://app.synthesia.io/#/?videosType=MyRecentVideos (don’t currently have creator status access to API*)
+
+
+I would recommend different tests for edge cases: we want to be able to differentiate valid data VS invalid data in different scenarios:
+
+If an error message is displayed, it is best to document the exact error response for engineering. Later, we must verify the fix after deployment. 
+
+
+
+
+Common issues that customers seem to run into based on API docs:
+
+
+Synthesia API: 
+Videos/Templates/Webhooks
+Uploading API:
+Script audio and assets (An asset is an image or video which you would like to include in a generated video.)
+List of Supported voices:
+Supported voices by the Synthesia API with their associated IDs
+List of stock avatars:
+Supported avatars by the Synthesia API with their associated IDs 
+Verifying Synthesia signatures:
+You need two things from the webhook Synthesia sent: Timestamp - When it was sent (found in header Synthesia-Timestamp). Afterward, combine the timestamp and body with a . between them.
+
+Possible issues include: ‘Signature mismatch' errors or ‘My webhook secret was compromised’
+
+Scripts supporting XML tags:
+Synthesia API scripts support a set of HTML-like tags that let you control timing and pronunciation in generated videos.
+
+Webhooks: 
+
+All webhook events follow the same pattern. At the top level, there will be two keys: one that describes the event that occurred, and one that contains the event-specific payload.
+
+Event (what happened) = "video.completed"
+Payload (the details) = video ID, download link, etc.
+
+When customers report webhook issues, I'd start by verifying:
+
+All webhook events follow the same pattern. At the top level, there will be two keys: one that describes the event that occurred, and one that contains the event-specific payload.
+1. Configuration - Is the webhook URL correct and active?
+2. Endpoint health - Is their server responding with HTTP 200?
+3. Payload handling - Are they parsing the JSON correctly?
+4. Delivery logs - Can I see if Synthesia successfully sent it?
